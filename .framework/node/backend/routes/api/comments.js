@@ -1,5 +1,5 @@
-var router = require("express").Router();
-var mongoose = require("mongoose");
-var Comment = mongoose.model("Comment");
+const router = require("express").Router();
+const mongoose = require("mongoose");
+const Comment = mongoose.model("Comment");
 
 module.exports = router;
